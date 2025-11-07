@@ -1,57 +1,57 @@
 
 ````markdown
-# 🌺 **VedaAI: Ancient Wisdom Meets Modern Intelligence**
+# 🌺 VedaAI: Ancient Wisdom Meets Modern Intelligence
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)](https://fastapi.tiangolo.com/)
 
----
 
-## 🧭 **Project Overview**
 
-**VedaAI** is a specialized conversational AI tool designed for research and interpretation of ancient Indian manuscripts — including the **Vedas, Puranas, Ramayana, Mahabharata**, and other sacred texts.  
+## 🧭 Project Overview
 
-Unlike general-purpose chatbots like GPT models (e.g., ChatGPT), **VedaAI** emphasizes **factual accuracy, authentic citations, and domain-specific expertise**. It is built for **academic, linguistic, and spiritual research**, bridging ancient wisdom with modern intelligence.
+VedaAI is a specialized conversational AI tool designed for research and interpretation of ancient Indian manuscripts — including the Vedas, Puranas, Ramayana, Mahabharata, and other sacred texts. We trained this model specifically on 28+ manuscipts and indian literatures.  
 
----
+Unlike general-purpose chatbots like GPT models (e.g., ChatGPT), **VedaAI** emphasizes factual accuracy, authentic citations, and domain-specific expertise. It is built for academic, linguistic, and spiritual research, bridging ancient wisdom with modern intelligence.
 
-## ⚖️ **Key Differences from General-Purpose GPT Models**
 
-### 🕉️ **1. Specialized Domain Focus**
-- **VedaAI:** Trained and optimized for ancient Indian scriptures using **Retrieval-Augmented Generation (RAG)** to fetch authentic verses from indexed texts such as *Rigveda*, *Bhagavad Gita*, and *Puranas*.  
-- **General GPTs:** Broad internet-trained models that often lack depth and factual precision in niche areas like scriptural studies.
 
-### 📚 **2. Fact-Based & Research-Oriented**
-- **VedaAI:** Delivers **evidence-backed answers with citations**, combining **offline scripture data** and **real-time web search** (via Bing) for scholarly accuracy.  
-- **General GPTs:** Often prioritize creative or conversational engagement over factual reliability.
+## ⚖️ Key Differences from General-Purpose GPT Models
 
-### 🪶 **3. Manuscript-Centric Functionality**
-- **VedaAI:** Built for **manuscript analysis**, featuring **semantic search** using Sentence Transformers and FAISS for context-aware retrieval.  
-- **General GPTs:** Treat all inputs generically without referencing curated historical corpora.
+### 🕉️ 1. Specialized Domain Focus
+- VedaAI: Trained and optimized for ancient Indian scriptures using Retrieval-Augmented Generation (RAG) to fetch authentic verses from indexed texts such as Rigveda, Bhagavad Gita, and Puranas.  
+- General GPTs: Broad internet-trained models that often lack depth and factual precision in niche areas like scriptural studies.
 
-### 🔰 **4. Hybrid AI Architecture**
-- **VedaAI:** Uses a **hybrid approach**, merging **Gemini 2.0 Flash** (primary), **DialoGPT** (fallback), and **web augmentation** for fact-checked responses.  
-- **General GPTs:** Depend solely on pre-trained data, with no integrated domain retrieval.
+### 📚 2. Fact-Based & Research-Oriented
+- VedaAI: Delivers evidence-backed answers with citations, combining offline scripture data and real-time web search (via Bing) for scholarly accuracy.  
+- General GPTs: Often prioritize creative or conversational engagement over factual reliability.
 
----
+### 🪶 3. Manuscript-Centric Functionality
+- VedaAI: Built for manuscript analysis, featuring semantic search using Sentence Transformers and FAISS for context-aware retrieval.  
+- General GPTs: Treat all inputs generically without referencing curated historical corpora.
 
-## 🌟 **Core Features**
+### 🔰 4. Hybrid AI Architecture
+- VedaAI: Uses a hybrid approach, merging Gemini 2.0 Flash (primary), DialoGPT (fallback), and web augmentation for fact-checked responses.  
+- General GPTs: Depend solely on pre-trained data, with no integrated domain retrieval.
 
-- **Scripture-Focused Retrieval:** Contextual RAG pipeline fetching relevant verses.  
-- **Fact-Based Responses:** Cited, verifiable, and Sanskrit-inclusive answers.  
-- **Hybrid AI Integration:** Combines local corpus retrieval with Gemini AI and DialoGPT.  
-- **Interactive Web Interface:** Clean, responsive UI inspired by ancient Indian aesthetics.  
-- **Semantic Search Engine:** Uses Sentence Transformers + FAISS for efficient retrieval.  
-- **Research-Ready Tool:** Ideal for scholars, linguists, and spiritual researchers.
 
----
 
-## 🧩 **System Requirements**
+## 🌟 Core Features
 
-- **Python:** 3.8+  
-- **Google Gemini API Key** (for AI model access)  
-- **Internet Connection** (for web augmentation and live search)
+- Scripture-Focused Retrieval: Contextual RAG pipeline fetching relevant verses.  
+- Fact-Based Responses: Cited, verifiable, and Sanskrit-inclusive answers.  
+- Hybrid AI Integration: Combines local corpus retrieval with Gemini AI and DialoGPT.  
+- Interactive Web Interface: Clean, responsive UI inspired by ancient Indian aesthetics.  
+- Semantic Search Engine: Uses Sentence Transformers + FAISS for efficient retrieval.  
+- Research-Ready Tool: Ideal for scholars, linguists, and spiritual researchers.
+
+
+
+## 🧩 System Requirements
+
+- Python: 3.8+  
+- Google Gemini API Key (for AI model access)  
+- Internet Connection (for web augmentation and live search)
 
 ---
 
